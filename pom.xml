@@ -204,6 +204,9 @@
 						<goals>
 							<goal>jar</goal>
 						</goals>
+						<configuration>
+							<additionalparam>${javadoc.opts}</additionalparam>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
@@ -268,12 +271,11 @@
 						<Bundle-RequiredExecutionEnvironment>
 							J2SE-1.5,JavaSE-1.6,JavaSE-1.7
 						</Bundle-RequiredExecutionEnvironment>
-						
+
 						<Export-Package>
 							${project.groupId}.${project.artifactId}.*;version="${changedistiller.api.version}"
 						</Export-Package>
-						
-						
+
 						<Import-Package>
 							org.eclipse.jdt.core.compiler,
 							org.eclipse.jdt.internal.compiler,
@@ -285,10 +287,10 @@
 							org.eclipse.jdt.internal.compiler.parser,
 							org.eclipse.jdt.internal.compiler.problem
 						</Import-Package>
-						
+
 						<!-- Will be replaced with package-imports at a later stage -->
 						<Require-Bundle>com.google.inject;bundle-version="3.0.0"</Require-Bundle>
-						
+
 						<_removeheaders>
 							Embed-Dependency,Embed-Transitive,
 							Built-By,Tool,Created-By,Build-Jdk,
@@ -315,7 +317,7 @@
 
 		<pluginManagement>
 			<plugins>
-				<!--This plugin's configuration is used to store Eclipse m2e settings 
+				<!--This plugin's configuration is used to store Eclipse m2e settings
 					only. It has no influence on the Maven build itself. -->
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
@@ -373,4 +375,22 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+
+	<profiles>
+		<!--
+			Disables DocLint introduced with Java 1.8 until all JavaDocs
+			within the ChangeDistiller source are fixed.
+
+			See http://openjdk.java.net/jeps/172 for details about DocLint
+		-->
+		<profile>
+			<id>java8-doclint-disabled</id>
+			<activation>
+				<jdk>[1.8,)</jdk>
+			</activation>
+			<properties>
+				<javadoc.opts>-Xdoclint:none</javadoc.opts>
+			</properties>
+		</profile>
+	</profiles>
 </project>
