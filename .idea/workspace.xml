@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="10fd299e-c295-41a4-b2ee-be5068e2246c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/resources/testdata/src_changetypes/AddingAttributeModifiability_Left.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/testdata/src_changetypes/AddingAttributeModifiability_Right.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AddingAttributeModifiabilityTest.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,41 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdditionalClassTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdditionalClassTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AdditionalClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddingAttributeModifiability_Left.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/testdata/src_changetypes/AddingAttributeModifiability_Left.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddingAttributeModifiability_Right.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/testdata/src_changetypes/AddingAttributeModifiability_Right.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddingAttributeModifiabilityTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AddingAttributeModifiabilityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AdditionalObjectStateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="31" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,16 +45,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>deri</find>
-      <find>deriva</find>
-      <find>der</find>
-      <find>attributemodi</find>
-      <find>classderi</find>
-      <find>addingatt</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,15 +61,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AdditionalClassTest.java" />
         <option value="$PROJECT_DIR$/resources/testdata/src_changetypes/AdditionalClass_Left.java" />
         <option value="$PROJECT_DIR$/resources/testdata/src_changetypes/AdditionalClass_Right.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/uzh/ifi/seal/changedistiller/ast/java/JavaDeclarationConverter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AdditionalObjectStateTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/ast/java/WhenSourceCodeChangesAreClassified.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/ClassDerivabilityTest.java" />
-        <option value="$PROJECT_DIR$/resources/testdata/src_changetypes/ClassDerivability_Left.java" />
-        <option value="$PROJECT_DIR$/resources/testdata/src_changetypes/ClassDerivability_Right.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AddingAttributeModifiabilityTest.java" />
-        <option value="$PROJECT_DIR$/resources/testdata/src_changetypes/AddingAttributeModifiability_Right.java" />
-        <option value="$PROJECT_DIR$/resources/testdata/src_changetypes/AddingAttributeModifiability_Left.java" />
       </list>
     </option>
   </component>
@@ -238,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddingAttributeModifiabilityTest.classRenamingTest">
+  <component name="RunManager" selected="JUnit.AdditionalClassTest.classRenamingTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -259,31 +213,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="AddingAttributeModifiabilityTest.classRenamingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch.uzh.ifi.seal.changedistiller.unittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="changedistiller" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.uzh.ifi.seal.changedistiller.unittest" />
-      <option name="MAIN_CLASS_NAME" value="ch.uzh.ifi.seal.changedistiller.unittest.AddingAttributeModifiabilityTest" />
-      <option name="METHOD_NAME" value="classRenamingTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="AdditionalClassTest.classRenamingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -322,56 +251,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ch.uzh.ifi.seal.changedistiller.unittest" />
       <option name="MAIN_CLASS_NAME" value="ch.uzh.ifi.seal.changedistiller.unittest.AdditionalObjectStateTest" />
-      <option name="METHOD_NAME" value="classRenamingTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ClassDerivabilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch.uzh.ifi.seal.changedistiller.unittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="changedistiller" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.uzh.ifi.seal.changedistiller.unittest" />
-      <option name="MAIN_CLASS_NAME" value="ch.uzh.ifi.seal.changedistiller.unittest.ClassDerivabilityTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ClassDerivabilityTest.classRenamingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch.uzh.ifi.seal.changedistiller.unittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="changedistiller" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.uzh.ifi.seal.changedistiller.unittest" />
-      <option name="MAIN_CLASS_NAME" value="ch.uzh.ifi.seal.changedistiller.unittest.ClassDerivabilityTest" />
       <option name="METHOD_NAME" value="classRenamingTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -445,20 +324,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="5">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AdditionalObjectStateTest.classRenamingTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AdditionalClassTest.classRenamingTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ClassDerivabilityTest.classRenamingTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ClassDerivabilityTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AddingAttributeModifiabilityTest.classRenamingTest" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddingAttributeModifiabilityTest.classRenamingTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AdditionalClassTest.classRenamingTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.AdditionalObjectStateTest.classRenamingTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AdditionalClassTest.classRenamingTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ClassDerivabilityTest.classRenamingTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ClassDerivabilityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -479,35 +352,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddingAttributeModifiabilityTest_classRenamingTest - 2018.03.24 at 00h 47m 04s.xml">
-      <configuration name="AddingAttributeModifiabilityTest.classRenamingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddingAttributeModifiabilityTest_classRenamingTest - 2018.03.24 at 00h 47m 42s.xml">
-      <configuration name="AddingAttributeModifiabilityTest.classRenamingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddingAttributeModifiabilityTest_classRenamingTest - 2018.03.24 at 00h 48m 56s.xml">
-      <configuration name="AddingAttributeModifiabilityTest.classRenamingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdditionalClassTest_classRenamingTest - 2018.03.24 at 00h 42m 24s.xml">
+    <history-entry file="AdditionalClassTest_classRenamingTest - 2018.03.23 at 16h 47m 07s.xml">
       <configuration name="AdditionalClassTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassDerivabilityTest_classRenamingTest - 2018.03.23 at 23h 33m 46s.xml">
-      <configuration name="ClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
+    <history-entry file="AdditionalClassTest_classRenamingTest - 2018.03.23 at 16h 48m 23s.xml">
+      <configuration name="AdditionalClassTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassDerivabilityTest_classRenamingTest - 2018.03.23 at 23h 36m 24s.xml">
-      <configuration name="ClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
+    <history-entry file="AdditionalClassTest_classRenamingTest - 2018.03.23 at 16h 51m 16s.xml">
+      <configuration name="AdditionalClassTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassDerivabilityTest_classRenamingTest - 2018.03.23 at 23h 36m 44s.xml">
-      <configuration name="ClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
+    <history-entry file="AdditionalClassTest_classRenamingTest - 2018.03.23 at 16h 52m 27s.xml">
+      <configuration name="AdditionalClassTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassDerivabilityTest_classRenamingTest - 2018.03.23 at 23h 38m 55s.xml">
-      <configuration name="ClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
+    <history-entry file="AdditionalObjectStateTest_classRenamingTest - 2018.03.23 at 16h 34m 34s.xml">
+      <configuration name="AdditionalObjectStateTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassDerivabilityTest_classRenamingTest - 2018.03.23 at 23h 40m 38s.xml">
-      <configuration name="ClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClassDerivabilityTest_classRenamingTest - 2018.03.23 at 23h 44m 42s.xml">
-      <configuration name="ClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
+    <history-entry file="AdditionalObjectStateTest_classRenamingTest - 2018.03.23 at 16h 36m 22s.xml">
+      <configuration name="AdditionalObjectStateTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -522,7 +383,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -555,22 +416,8 @@
             <option name="EMULATED" value="true" />
           </properties>
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AddingAttributeModifiabilityTest.java</url>
-          <line>20</line>
-          <properties class="ch.uzh.ifi.seal.changedistiller.unittest.AddingAttributeModifiabilityTest" method="classRenamingTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AddingAttributeModifiabilityTest.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -700,8 +547,8 @@
         <state relative-caret-position="132">
           <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="25" />
           <folding>
-            <element signature="e#46774#46775#0" expanded="true" />
-            <element signature="e#46835#46836#0" expanded="true" />
+            <element signature="e#46774#46775#0" expanded="false" />
+            <element signature="e#46835#46836#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,6 +573,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/FileDistillerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/uzh/ifi/seal/changedistiller/ast/java/JavaSourceCodeChangeClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16086">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AdditionalObjectStateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/testdata/src_changetypes/AdditionalObjectState_Left.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/testdata/src_changetypes/AdditionalObjectState_Right.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/testdata/src_changetypes/AdditionalClass_Left.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/testdata/src_changetypes/AdditionalClass_Right.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AdditionalClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
