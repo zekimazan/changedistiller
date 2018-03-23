@@ -1,4 +1,4 @@
-package test;
+ package test;
 
 /**
  * This is our first (left) test class.
