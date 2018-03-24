@@ -41,7 +41,7 @@ public class ConditionExpressionChangeTest {
 	}
 	
 	@Test
-	public void conditionExpressionChangeTest1() {
+	public void conditionExpressionChangeWhileTest() {
 		String expected = "CONDITION_EXPRESSION_CHANGE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
@@ -58,7 +58,7 @@ public class ConditionExpressionChangeTest {
 	}
 	
 	@Test
-	public void conditionExpressionChangeTest2() {
+	public void conditionExpressionChangeIfTest() {
 		String expected = "CONDITION_EXPRESSION_CHANGE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
@@ -75,7 +75,7 @@ public class ConditionExpressionChangeTest {
 	}
 	
 	@Test
-	public void conditionExpressionChangeTest3() {
+	public void conditionExpressionChangeForTest() {
 		String expected = "CONDITION_EXPRESSION_CHANGE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
