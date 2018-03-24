@@ -20,7 +20,7 @@ import java.util.Scanner;
 	 
 	 		System.out.println("Enter the lower limit:");
 	 		String lower=k.next();
-			 while(!limitControl(lower)){  //ConditionExpressionChange_1_Left.java and ConditionExpressionChange_1_Right.java have difference in that line.
+			 while(!limitControl(lower)){  //ConditionExpressionChangeWhileLeft.java and ConditionExpressionChangeWhileRight.java have difference in that line.
 				 System.out.println("Invalid lower limit.Enter the lower limit:");
 				 lower=k.next();
 			 }
