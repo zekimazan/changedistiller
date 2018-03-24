@@ -60,7 +60,7 @@ import java.util.Scanner;
 				 cntrl2=true;
 				 String keyboard=k.nextLine();
 
-	 			for(int i=0; i<keyboard.length()-1; i++) //ConditionExpressionChange_3_Left.java and ConditionExpressionChange_3_Right.java have difference in that line.
+	 			for(int i=0; i<keyboard.length()-1; i++) //ConditionExpressionChangeForLeft.java and ConditionExpressionChangeForRight.java have difference in that line.
 					 if(keyboard.charAt(i)!=' ')
 						 pol+=keyboard.charAt(i);
 	 	
