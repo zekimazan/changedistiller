@@ -24,7 +24,7 @@ import java.util.Scanner;
 				 System.out.println("Invalid lower limit.Enter the lower limit:");
 				 lower=k.next();
 			 }
-			 if(lower.charAt(0)!='-') //ConditionExpressionChange_2_Left.java and ConditionExpressionChange_2_Right.java have difference in that line.
+			 if(lower.charAt(0)!='-') //ConditionExpressionChangeIfLeft.java and ConditionExpressionChangeIfRight.java have difference in that line.
 				 lowerLimit=-1*convertToNumber(lower.substring(1));
 	 		else if(lower.charAt(0)=='+')
 				 lowerLimit=1*convertToNumber(lower.substring(1));
