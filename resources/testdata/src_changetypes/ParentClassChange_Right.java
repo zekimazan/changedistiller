@@ -30,8 +30,8 @@ public class Test extends Right {
 		
 		// check if number is greater than -1
 		boolean check = number > 0;
-		int a = 0;
 		int b = 2;
+		int a = 0;
 
 		// check the huga number
 		// and some new

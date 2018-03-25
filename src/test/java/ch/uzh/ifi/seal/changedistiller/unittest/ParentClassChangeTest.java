@@ -39,7 +39,7 @@ public class ParentClassChangeTest {
 	
 	@Test
 	public void ParentClassChangeTest() {
-		String expected = "PARENT_CLASS_CHANGE\n";
+		String expected = "PARENT_CLASS_CHANGE\nSTATEMENT_ORDERING_CHANGE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {
