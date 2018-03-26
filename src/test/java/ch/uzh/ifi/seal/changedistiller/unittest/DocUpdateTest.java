@@ -29,23 +29,38 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalObjectStateTest {
+public class DocUpdateTest {
 	List<SourceCodeChange> sourceCodeChangeList;
-	
+	List<SourceCodeChange> sourceCodeChangeList2;
+
 	@Before
 	public void setUp() {
-		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
+		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("DocUpdateResources/DocUpdate_left.java", "DocUpdateResources/DocUpdate_right.java");
+		sourceCodeChangeList2 = FileDistillerUtil.getChangesFromFile("DocUpdateResources/DocUpdate1_left.java", "DocUpdateResources/DocUpdate1_right.java");
 	}
-	
+
 	@Test
-	public void classRenamingTest() {
-		String expected = "ADDITIONAL_OBJECT_STATE\n";
-		
+	public void DocUpdateWithOtherChangesTest() {
+		String expected = "DOC_UPDATE\nMETHOD_RENAMING\n";
+
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {
 			stringBuilder.append(change.getLabel() + "\n");
-		}
-		
+    }
+
 		assertEquals(stringBuilder.toString(), expected);
 	}
+
+  @Test
+	public void SolelyDocUpdateTest() {
+		String expected = "DOC_UPDATE\n";
+
+		StringBuilder stringBuilder = new StringBuilder();
+    for(SourceCodeChange change : sourceCodeChangeList2) {
+			stringBuilder.append(change.getLabel() + "\n");
+  	}
+
+		assertEquals(stringBuilder.toString(), expected);
+	}
+
 }
