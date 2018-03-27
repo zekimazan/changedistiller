@@ -37,7 +37,7 @@ public class FileDistillerUtil {
 		Path resourceDirectory = Paths.get("resources","testdata","src_changetypes");
 		File left = new File(resourceDirectory + "/" + leftFileName);
 		File right = new File(resourceDirectory + "/" + rightFileName);
-
+		
 		FileDistiller distiller = ChangeDistiller.createFileDistiller(Language.JAVA);
 		try {
 			distiller.extractClassifiedSourceCodeChanges(left, right);
