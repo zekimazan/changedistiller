@@ -5,7 +5,7 @@ package test;
  * @author Beat Fluri
  */
 public class Test  {
-
+	
 	/*
 	 * Scarab Lord Kungen
 	 */
@@ -27,7 +27,7 @@ public class Test  {
 	 */
 	public int foo(int number) {
 		System.out.println("left");
-
+		System.out.println("xx");
 		// check if number is greater than -1
 		boolean check = number > 0;
 		int a = 0;
@@ -56,6 +56,7 @@ public class Test  {
 
 	private class Bar {
 		private void method() {
+			System.out.println();
 			System.out.println();
 			System.out.println();
 
