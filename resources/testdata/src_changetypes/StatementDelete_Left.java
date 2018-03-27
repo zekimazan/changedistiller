@@ -59,7 +59,6 @@ public class Test  {
 			System.out.println();
 			System.out.println();
 			System.out.println();
-
 		}
 	}
 	// the huga bar method

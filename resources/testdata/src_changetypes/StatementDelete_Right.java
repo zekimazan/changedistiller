@@ -58,8 +58,6 @@ public class Test  {
 		private void method() {
 			System.out.println();
 			System.out.println();
-			System.out.println();
-			System.out.printf("g");
 
 		}
 	}

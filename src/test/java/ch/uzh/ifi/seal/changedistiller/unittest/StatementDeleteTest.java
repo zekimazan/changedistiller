@@ -29,17 +29,17 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class StatementInsertTest {
+public class StatementDeleteTest {
 	List<SourceCodeChange> sourceCodeChangeList;
 	
 	@Before
 	public void setUp() {
-		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("StatementInsert_Left.java", "StatementInsert_Right.java");
+		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("StatementDelete_Left.java", "StatementDelete_Right.java");
 	}
 	
 	@Test
 	public void classRenamingTest() {
-		String expected = "STATEMENT_INSERT\n";
+		String expected = "STATEMENT_DELETE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {
