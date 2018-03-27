@@ -20,8 +20,6 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  * #L%
  */
 
-
-
 import static org.junit.Assert.assertEquals;
 
 import java.util.List;
@@ -31,17 +29,17 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalObjectStateTest {
+public class IncreasingAccessibilityChangeTest {
 	List<SourceCodeChange> sourceCodeChangeList;
 	
 	@Before
 	public void setUp() {
-		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
+		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("IncreasingAccessibilityChange_Left.java", "IncreasingAccessibilityChange_Right.java");
 	}
 	
 	@Test
 	public void classRenamingTest() {
-		String expected = "ADDITIONAL_OBJECT_STATE\n";
+		String expected = "INCREASING_ACCESSIBILITY_CHANGE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {

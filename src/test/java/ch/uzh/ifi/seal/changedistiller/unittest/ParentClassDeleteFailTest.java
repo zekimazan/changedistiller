@@ -9,9 +9,9 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -19,7 +19,6 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  * limitations under the License.
  * #L%
  */
-
 
 
 import static org.junit.Assert.assertEquals;
@@ -31,23 +30,23 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalObjectStateTest {
+public class ParentClassDeleteFailTest {
 	List<SourceCodeChange> sourceCodeChangeList;
-	
+
 	@Before
 	public void setUp() {
-		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
+		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("ParentClassDeleteFail_Left.java", "ParentClassDeleteFail_Right.java");
 	}
-	
+
 	@Test
 	public void classRenamingTest() {
-		String expected = "ADDITIONAL_OBJECT_STATE\n";
-		
+		String expected = "PARENT_CLASS_DELETE\n";
+
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {
 			stringBuilder.append(change.getLabel() + "\n");
 		}
-		
-		assertEquals(stringBuilder.toString(), expected);
+
+		assertEquals(expected,stringBuilder.toString());
 	}
 }

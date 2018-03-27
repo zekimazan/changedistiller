@@ -21,27 +21,25 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  */
 
 
-
-import static org.junit.Assert.assertEquals;
-
-import java.util.List;
-
+import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 import org.junit.Before;
 import org.junit.Test;
 
-import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
+import java.util.List;
 
-public class AdditionalObjectStateTest {
+import static org.junit.Assert.assertEquals;
+
+public class StatementInsertTest {
 	List<SourceCodeChange> sourceCodeChangeList;
 	
 	@Before
 	public void setUp() {
-		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
+		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("StatementInsert_Left.java", "StatementInsert_Right.java");
 	}
 	
 	@Test
 	public void classRenamingTest() {
-		String expected = "ADDITIONAL_OBJECT_STATE\n";
+		String expected = "STATEMENT_INSERT\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {
