@@ -32,12 +32,12 @@ import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
 public class AdditionalObjectStateTest {
 	List<SourceCodeChange> sourceCodeChangeList;
-
+	
 	@Before
 	public void setUp() {
 		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
 	}
-
+	
 	@Test
 	public void classRenamingTest() {
 		String expected = "ADDITIONAL_OBJECT_STATE\n";
@@ -46,7 +46,7 @@ public class AdditionalObjectStateTest {
 		for(SourceCodeChange change : sourceCodeChangeList) {
 			stringBuilder.append(change.getLabel() + "\n");
 		}
-
+		
 		assertEquals(stringBuilder.toString(), expected);
 	}
 }
