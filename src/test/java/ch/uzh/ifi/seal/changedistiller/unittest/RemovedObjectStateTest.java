@@ -30,23 +30,23 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalObjectStateTest {
+public class RemovedObjectStateTest {
 	List<SourceCodeChange> sourceCodeChangeList;
-
+	
 	@Before
 	public void setUp() {
-		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
+		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("RemovedObjectState_Left.java", "RemovedObjectState_Right.java");
 	}
-
+	
 	@Test
-	public void classRenamingTest() {
-		String expected = "ADDITIONAL_OBJECT_STATE\n";
+	public void removingObjectState() {
+		String expected = "REMOVED_OBJECT_STATE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {
 			stringBuilder.append(change.getLabel() + "\n");
 		}
-
+		
 		assertEquals(stringBuilder.toString(), expected);
 	}
 }
