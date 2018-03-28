@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AddingClassDerivabilityTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -226,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddingClassDerivabilityFailTest.classRenamingTest">
+  <component name="RunManager" selected="JUnit.AddingClassDerivabilityTest.classRenamingTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -442,8 +442,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddingClassDerivabilityFailTest.classRenamingTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddingClassDerivabilityTest.classRenamingTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddingClassDerivabilityTest.classRenamingTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AddingClassDerivabilityFailTest.classRenamingTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.AdditionalObjectStateTest.classRenamingTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.AddingAttributeModifiabilityTest.classRenamingTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.AdditionalClassTest.classRenamingTest" />
@@ -470,9 +470,6 @@
     <history-entry file="AddingClassDerivabilityFailTest_classRenamingTest - 2018.03.25 at 16h 36m 33s.xml">
       <configuration name="AddingClassDerivabilityFailTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddingClassDerivabilityTest_classRenamingTest - 2018.03.25 at 16h 32m 06s.xml">
-      <configuration name="AddingClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddingClassDerivabilityTest_classRenamingTest - 2018.03.25 at 16h 32m 29s.xml">
       <configuration name="AddingClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
@@ -495,6 +492,9 @@
       <configuration name="AddingClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AddingClassDerivabilityTest_classRenamingTest - 2018.03.25 at 16h 36m 13s.xml">
+      <configuration name="AddingClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddingClassDerivabilityTest_classRenamingTest - 2018.03.28 at 11h 49m 36s.xml">
       <configuration name="AddingClassDerivabilityTest.classRenamingTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -846,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/uzh/ifi/seal/changedistiller/unittest/AddingClassDerivabilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
