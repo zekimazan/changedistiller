@@ -1,4 +1,4 @@
- package test;
+package test;
 
 /**
  * This is our first (left) test class.
@@ -14,7 +14,7 @@ public class Test {
 	public static String sField;
 	public volatile int vField;
 	public transient String tField;
-	public synchronized long synchField;
+	public long synchField;
 	
 	private String arrayField;
 	
@@ -55,7 +55,7 @@ public class Test {
 	 */	
 	
 	private class Bar {
-		private void method() {
+		public void method() {
 			System.out.println();
 			System.out.println();
 			System.out.println();

@@ -20,10 +20,6 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  * #L%
  */
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 03ea2c733272398966b9d58c42a31e23456cdd09
 import static org.junit.Assert.assertEquals;
 
 import java.util.List;
@@ -33,17 +29,17 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalObjectStateTest {
+public class ParentClassChangeTest {
 	List<SourceCodeChange> sourceCodeChangeList;
 	
 	@Before
 	public void setUp() {
-		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
+		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("ParentClassChange_Left.java", "ParentClassChange_Right.java");
 	}
 	
 	@Test
-	public void classRenamingTest() {
-		String expected = "ADDITIONAL_OBJECT_STATE\n";
+	public void ParentClassChangeTest() {
+		String expected = "PARENT_CLASS_CHANGE\nSTATEMENT_ORDERING_CHANGE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {

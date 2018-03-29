@@ -1,10 +1,15 @@
- package test;
+package test;
 
 /**
  * This is our first (left) test class.
  * @author Beat Fluri
  */
 public class Test {
+	
+	/**
+	 * Yet another attribute
+	 */
+	public String aString = "test_string";
 	
 	/*
 	 * Scarab Lord Kungen
@@ -14,7 +19,7 @@ public class Test {
 	public static String sField;
 	public volatile int vField;
 	public transient String tField;
-	public synchronized long synchField;
+	public long synchField;
 	
 	private String arrayField;
 	
@@ -62,7 +67,7 @@ public class Test {
 		}
 	}
 	// the huga bar method
-	public void bar(int test) {
+	public void bar(int testx) {
 		System.out.println("aString");
 	}
 

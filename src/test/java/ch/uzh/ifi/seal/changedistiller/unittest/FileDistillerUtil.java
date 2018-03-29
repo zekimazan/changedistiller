@@ -20,6 +20,10 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  * #L%
  */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 03ea2c733272398966b9d58c42a31e23456cdd09
 import java.io.File;
 import java.net.URL;
 import java.nio.file.Path;

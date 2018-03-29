@@ -1,10 +1,10 @@
- package test;
+package test;
 
 /**
  * This is our first (left) test class.
  * @author Beat Fluri
  */
-public class Test {
+public class Test extends Left {
 	
 	/*
 	 * Scarab Lord Kungen

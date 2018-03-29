@@ -1,11 +1,11 @@
- package test;
+package test;
 
 /**
  * This is our first (left) test class.
  * @author Beat Fluri
  */
 public class Test {
-	
+
 	/*
 	 * Scarab Lord Kungen
 	 */
@@ -15,11 +15,11 @@ public class Test {
 	public volatile int vField;
 	public transient String tField;
 	public synchronized long synchField;
-	
+
 	private String arrayField;
-	
+
 	public Integer anInteger = new Integer(1);
-	
+
 	/**
 	 * Yet another method with a comment
 	 * @param number
@@ -27,7 +27,7 @@ public class Test {
 	 */
 	public int foo(int number) {
 		System.out.println("left");
-		
+
 		// check if number is greater than -1
 		boolean check = number > 0;
 		int a = 0;
@@ -37,6 +37,7 @@ public class Test {
 		// and some new
 
 		if (check) {
+			/* huga bimbo */
 			/* This is the most beautiful comment in the world
 			 * and soon it will be gone :'(
 			 */
@@ -44,7 +45,6 @@ public class Test {
 			b = Math.round(Math.random() /* mimimi */);
 			return a + b;
 		} else {
-			/* huga bimbo */
 			b = Math.abs(number);
 			String.valueOf(true);
 			return b;
@@ -52,8 +52,8 @@ public class Test {
 	}
 	/*
 	 * Inner classes are cool
-	 */	
-	
+	 */
+
 	private class Bar {
 		private void method() {
 			System.out.println();
@@ -67,7 +67,7 @@ public class Test {
 	}
 
 	public native void nativeMethod();
-	
+
 	public strictfp float strictfpMethod() {
 		return 2.0f * 3.3f;
 	}

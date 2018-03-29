@@ -1,4 +1,4 @@
- package test;
+package test;
 
 /**
  * This is our first (left) test class.
@@ -30,8 +30,8 @@ public class Test {
 		
 		// check if number is greater than -1
 		boolean check = number > 0;
-		int a = 0;
 		int b = 2;
+		int a = 0;
 
 		// check the huga number
 		// and some new

@@ -1,10 +1,10 @@
- package test;
+package test;
 
 /**
  * This is our first (left) test class.
  * @author Beat Fluri
  */
-public class Test {
+public class Test  {
 	
 	/*
 	 * Scarab Lord Kungen
@@ -15,11 +15,11 @@ public class Test {
 	public volatile int vField;
 	public transient String tField;
 	public synchronized long synchField;
-	
+
 	private String arrayField;
-	
+
 	public Integer anInteger = new Integer(1);
-	
+
 	/**
 	 * Yet another method with a comment
 	 * @param number
@@ -27,7 +27,7 @@ public class Test {
 	 */
 	public int foo(int number) {
 		System.out.println("left");
-		
+		System.out.println("xx");
 		// check if number is greater than -1
 		boolean check = number > 0;
 		int a = 0;
@@ -52,13 +52,14 @@ public class Test {
 	}
 	/*
 	 * Inner classes are cool
-	 */	
-	
+	 */
+
 	private class Bar {
 		private void method() {
 			System.out.println();
 			System.out.println();
 			System.out.println();
+
 		}
 	}
 	// the huga bar method
@@ -67,7 +68,7 @@ public class Test {
 	}
 
 	public native void nativeMethod();
-	
+
 	public strictfp float strictfpMethod() {
 		return 2.0f * 3.3f;
 	}
