@@ -6,6 +6,8 @@ package test;
  */
 public class Test {
 
+
+
     /*
      * Scarab Lord Kungen
      */

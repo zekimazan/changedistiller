@@ -6,12 +6,10 @@ package test;
  */
 public class Test {
 
-
-
     /*
      * Scarab Lord Kungen
      */
-    public String aField;
+    public final String aField;
 
     public static String sField;
     public volatile int vField;
@@ -73,7 +71,4 @@ public class Test {
     public strictfp float strictfpMethod() {
         return 2.0f * 3.3f;
     }
-
-    public class Additional {}
-
 }

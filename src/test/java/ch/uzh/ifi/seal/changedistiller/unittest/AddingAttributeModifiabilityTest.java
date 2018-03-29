@@ -9,17 +9,17 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalClassTest {
+public class AddingAttributeModifiabilityTest {
     List<SourceCodeChange> sourceCodeChangeList;
 
     @Before
     public void setUp() {
-        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalClass_Left.java", "AdditionalClass_Right.java");
+        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AttributeModifiability_Left.java", "AttributeModifiability_Right.java");
     }
 
     @Test
     public void classRenamingTest() {
-        String expected = "ADDITIONAL_CLASS\n";
+        String expected = "ADDING_ATTRIBUTE_MODIFIABILITY\n";
 
         StringBuilder stringBuilder = new StringBuilder();
         for(SourceCodeChange change : sourceCodeChangeList) {
