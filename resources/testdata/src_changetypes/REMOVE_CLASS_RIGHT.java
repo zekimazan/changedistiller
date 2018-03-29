@@ -1,5 +1,5 @@
-
-public class REMOVED_CLASS_RIGHT {
+package test;
+public class Test {
 	
 	public class Cinema {
 		
@@ -31,5 +31,7 @@ public class REMOVED_CLASS_RIGHT {
 				return "Empty";
 		}
 	}
+	
+
 }
 
