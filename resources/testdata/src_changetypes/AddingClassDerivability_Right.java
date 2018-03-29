@@ -6,10 +6,12 @@ package test;
  */
 public class Test {
 
+
+
     /*
      * Scarab Lord Kungen
      */
-    public final String aField;
+    public String aField;
 
     public static String sField;
     public volatile int vField;
@@ -54,7 +56,10 @@ public class Test {
      * Inner classes are cool
      */
 
+
+
     private class Bar {
+        private String tryout;
         private void method() {
             System.out.println();
             System.out.println();

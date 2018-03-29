@@ -9,17 +9,17 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AddingAttributeModifiabilityTest {
+public class AddingClassDerivabilityFailTest {
     List<SourceCodeChange> sourceCodeChangeList;
 
     @Before
     public void setUp() {
-        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AttributeModifiability_Left.java", "AttributeModifiability_Right.java");
+        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AddingClassDerivabilityFail_Left.java", "AddingClassDerivabilityFail_Right.java");
     }
 
     @Test
     public void classRenamingTest() {
-        String expected = "ADDING_ATTRIBUTE_MODIFIABILITY\n";
+        String expected = "ADDING_CLASS_DERIVABILITY\n";
 
         StringBuilder stringBuilder = new StringBuilder();
         for(SourceCodeChange change : sourceCodeChangeList) {
