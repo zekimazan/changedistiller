@@ -25,23 +25,22 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
-import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ReturnTypeInsertTest {
-    List<SourceCodeChange> sourceCodeChangeList;
+import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
+public class ParentInterfaceInsertTest {
+    List<SourceCodeChange> sourceCodeChangeList;
 
     @Before
     public void setUp() {
-        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("ReturnTypeInsert_Left.java", "ReturnTypeInsert_Right.java");
-
+        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("ParentInterfaceInsert_Left.java", "ParentInterfaceInsert_Right.java");
     }
 
     @Test
-    public void returnTypeInsertTest() {
-        String expected = "RETURN_TYPE_INSERT\n";
+    public void parentInterfaceInsertTest() {
+        String expected = "PARENT_INTERFACE_INSERT\nDOC_INSERT\n";
 
         StringBuilder stringBuilder = new StringBuilder();
         for(SourceCodeChange change : sourceCodeChangeList) {
@@ -50,5 +49,4 @@ public class ReturnTypeInsertTest {
 
         assertEquals(stringBuilder.toString(), expected);
     }
-
 }
