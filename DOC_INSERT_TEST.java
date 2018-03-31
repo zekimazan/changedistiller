@@ -41,7 +41,7 @@
 		}
 
 		@Test
-		public void classRenamingTest() {
+		public void DocInsertionTest() {
 			String expected = "DOC_INSERT\n";
 
 			StringBuilder stringBuilder = new StringBuilder();

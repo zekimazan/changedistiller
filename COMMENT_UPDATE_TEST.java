@@ -41,7 +41,7 @@
 		}
 
 		@Test
-		public void classRenamingTest() {
+		public void CommentUpdateTest() {
 			String expected = "COMMENT_UPDATE\n";
 
 			StringBuilder stringBuilder = new StringBuilder();
