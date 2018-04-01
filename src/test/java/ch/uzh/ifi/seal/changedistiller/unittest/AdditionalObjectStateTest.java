@@ -20,10 +20,7 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  * #L%
  */
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 03ea2c733272398966b9d58c42a31e23456cdd09
 import static org.junit.Assert.assertEquals;
 
 import java.util.List;
