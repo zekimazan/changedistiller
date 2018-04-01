@@ -9,6 +9,9 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
+package test.Test;
+
+
 public class AdditionalObjectStateTest {
 	List<SourceCodeChange> sourceCodeChangeList;
 	
@@ -28,4 +31,27 @@ public class AdditionalObjectStateTest {
 		
 		assertEquals(stringBuilder.toString(), expected);
 	}
+    
+    @Test
+    public void removed_functionalityTest(){
+        // int expected = "REMOVED_FUNCTIONALITY\n";
+        
+        int expectedNeg = 1;
+        int expectedZero = 0;
+        int expectedPos = 1;
+
+        
+        
+        
+        int numberNeg = -1;
+        int numberZero = 0;
+        int numberPos = 1;
+
+        
+        assertEquals(expectedNeg, Test.foo(numberNeg));
+        assertEquals(expectedNeg, Test.foo(numberZero));
+        assertTrue(expectedPos < Test.foo(numberPos));
+
+
+    }
 }
