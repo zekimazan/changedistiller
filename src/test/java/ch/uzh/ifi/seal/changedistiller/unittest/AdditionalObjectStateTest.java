@@ -23,9 +23,39 @@ public class AdditionalObjectStateTest {
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		for(SourceCodeChange change : sourceCodeChangeList) {
-			stringBuilder.append(change.getLabel() + "\n");
+			stringBuilder.append(change.getLabel()  "\n");
 		}
 		
 		assertEquals(stringBuilder.toString(), expected);
 	}
+    
+    
+        @Test
+        public void statement_updateTest(){
+            String expected = "STATEMENT_UPDATE\n";
+            
+            StringBuilder stringBuilder = new StringBuilder();
+            for(SourceCodeChange change : sourceCodeChangeList) {
+                stringBuilder.append(change.getLabel()  "\n");
+            }
+            
+            assertEquals(stringBuilder.toString(), expected);
+
+            
+            
+                int expectedNeg = 1;
+                int expectedZero = 0;
+                int expectedPos = 1;
+        
+        
+        
+        
+                int numberNeg = -1;
+                int numberZero = 0;
+                int numberPos = 1;
+        
+        
+                assertEquals(expectedNeg, Test.foo(numberNeg));
+                assertEquals(expectedNeg, Test.foo(numberZero));
+                assertTrue(expectedPos < Test.foo(numberPos));
 }
