@@ -65,6 +65,6 @@ public class CommentDeleteTest {
 			stringBuilder.append(change.getLabel() + "\n");
 		}
 		
-		assertNotEquals(stringBuilder.toString(), expected);
+		assertEquals(stringBuilder.toString(), expected);
 	}
 }
