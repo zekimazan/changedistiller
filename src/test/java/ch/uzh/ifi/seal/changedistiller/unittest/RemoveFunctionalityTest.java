@@ -9,17 +9,20 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalObjectStateTest {
+package test.Test;
+
+
+public class RemoveFunctionalityTest{
     List<SourceCodeChange> sourceCodeChangeList;
     
     @Before
     public void setUp() {
-        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
+        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("RemoveFunctionality_Left.java", "RemoveFunctionality_Right.java");
     }
     
     @Test
-    public void classRenamingTest() {
-        String expected = "ADDITIONAL_OBJECT_STATE\n";
+    public void TestRunnerRemoveFunctionality(){
+        String expected = "REMOVED_FUNCTIONALITY\n";
         
         StringBuilder stringBuilder = new StringBuilder();
         for(SourceCodeChange change : sourceCodeChangeList) {
@@ -28,4 +31,5 @@ public class AdditionalObjectStateTest {
         
         assertEquals(stringBuilder.toString(), expected);
     }
+    
 }
