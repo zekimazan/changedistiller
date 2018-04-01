@@ -9,17 +9,17 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalObjectStateTest {
+public class StatementUpdateTest {
     List<SourceCodeChange> sourceCodeChangeList;
     
     @Before
     public void setUp() {
-        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("AdditionalObjectState_Left.java", "AdditionalObjectState_Right.java");
+        sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("StatementUpdate_Left.java", "StatementUpdate_Right.java");
     }
     
     @Test
-    public void classRenamingTest() {
-        String expected = "ADDITIONAL_OBJECT_STATE\n";
+    public void testRunnerStatementUpdate() {
+        String expected = "STATEMENT_UPDATE\n";
         
         StringBuilder stringBuilder = new StringBuilder();
         for(SourceCodeChange change : sourceCodeChangeList) {
