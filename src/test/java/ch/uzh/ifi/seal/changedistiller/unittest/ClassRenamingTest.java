@@ -30,7 +30,7 @@ import org.junit.Test;
 
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
-public class AdditionalObjectStateTest {
+public class ClassRenamingTest {
 	List<SourceCodeChange> sourceCodeChangeList;
 	
 	@Before
