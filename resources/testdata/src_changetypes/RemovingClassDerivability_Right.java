@@ -1,7 +1,7 @@
 package test;
-public final class Test {
+public final class Test {			//final makes it imossible to be extended by a subclass
 
-	public void method(){
+	public void DerivableClassCh(){		//this class isn't derivable
 
 	}
 

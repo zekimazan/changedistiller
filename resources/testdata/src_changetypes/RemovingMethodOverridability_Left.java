@@ -1,7 +1,7 @@
 package test;
 public class Test {
 
-	public void method(){
+	public void OverridableMethodCh(){	//This method is overridable
 
 	}
 
