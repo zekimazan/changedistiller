@@ -21,14 +21,12 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  */
 
 
-
 import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
-
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 
 public class ReturnTypeDeleteTest {
@@ -40,7 +38,7 @@ public class ReturnTypeDeleteTest {
 	}
 	
 	@Test
-	public void classRenamingTest() {
+	public void ReturnTypeDeleteTest() {
 		String expected = "RETURN_TYPE_DELETE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
@@ -48,6 +46,6 @@ public class ReturnTypeDeleteTest {
 			stringBuilder.append(change.getLabel() + "\n");
 		}
 		
-		assertEquals(stringBuilder.toString(), expected);
+		assertEquals(expected, stringBuilder.toString());
 	}
 }
