@@ -4,7 +4,7 @@ package test;
  * This is our first (left) test class.
  * @author Beat Fluri
  */
-public interface ParentInterfaceDelete_Rights {
+public interface ParentInterfaceDelete_Right extends Object{
 	
 	/**
 	 * Yet another attribute
