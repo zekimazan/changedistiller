@@ -40,7 +40,7 @@ public class ParentInterfaceChangeTest {
 	}
 	
 	@Test
-	public void classRenamingTest() {
+	public void parentInterfaceChange() {
 		String expected = "PARENT_INTERFACE_CHANGE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
