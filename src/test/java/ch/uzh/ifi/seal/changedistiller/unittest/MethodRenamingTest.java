@@ -38,7 +38,7 @@ public class MethodRenamingTest {
 	}
 	
 	@Test
-	public void classRenamingTest() {
+	public void methodRenamingTest() {
 		String expected = "METHOD_RENAMING\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();

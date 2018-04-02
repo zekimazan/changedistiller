@@ -38,7 +38,7 @@ public class RemovingClassDerivabilityTest {
 	}
 	
 	@Test
-	public void classRenamingTest() {
+	public void removingClassDerivabilityTest() {
 		String expected = "REMOVING_CLASS_DERIVABILITY\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();

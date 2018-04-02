@@ -38,7 +38,7 @@ public class RemovingMethodOverridabilityTest {
 	}
 	
 	@Test
-	public void classRenamingTest() {
+	public void removingMethodOverridabilityTest() {
 		String expected = "REMOVING_METHOD_OVERRIDABILITY\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
