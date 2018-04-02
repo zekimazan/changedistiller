@@ -40,7 +40,7 @@ public class ReturnTypeChangeTest {
 	}
 	
 	@Test
-	public void returnTypeChange() {
+	public void returnTypeChangeTest() {
 		String expected = "RETURN_TYPE_CHANGE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
