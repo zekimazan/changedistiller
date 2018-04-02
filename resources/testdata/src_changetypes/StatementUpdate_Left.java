@@ -1,7 +1,7 @@
 package test;
 public class Test {
     
-    public void statementChange_left(){
+    public void statementUpdate_left(){
         
     }
     
