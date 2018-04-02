@@ -1,7 +1,7 @@
 package test;
 public class Test {
     
-    public void removeFun_left(){
+    public void removeFunctionality_left(){
         
     }
     
