@@ -20,6 +20,7 @@ package ch.uzh.ifi.seal.changedistiller.unittest;
  * #L%
  */
 
+
 import static org.junit.Assert.assertEquals;
 
 import java.util.List;
@@ -34,11 +35,11 @@ public class ParentInterfaceDeleteTest {
 	
 	@Before
 	public void setUp() {
-		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("ParentInterfaceDelete_Left", "ParentInterfaceDelete_Right.java");
+		sourceCodeChangeList = FileDistillerUtil.getChangesFromFile("ParentInterfaceDelete_Left.java", "ParentInterfaceDelete_Right.java");
 	}
 	
 	@Test
-	public void classRenamingTest() {
+	public void ParentInterfaceDeleteTest() {
 		String expected = "PARENT_INTERFACE_DELETE\n";
 		
 		StringBuilder stringBuilder = new StringBuilder();
